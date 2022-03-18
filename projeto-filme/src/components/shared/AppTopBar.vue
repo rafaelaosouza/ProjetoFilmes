@@ -3,7 +3,7 @@
     <v-app-bar app color="orange" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       <v-toolbar-title>
-        Projetos Filmes 🎥
+        Projetos Filmes 🎥 
       </v-toolbar-title>
     </v-app-bar>
 
