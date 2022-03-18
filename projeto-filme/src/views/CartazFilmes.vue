@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h2 class="text-h5 text-center mb-3 mt-5">Filmes em Cartaz</h2>
+    <h1 class="text-h5 text-center mb-3 mt-5">Filmes em Cartaz</h1>
     <ListaCartaz :filmes="ListaCartaz"/>
   </v-container>
 </template>

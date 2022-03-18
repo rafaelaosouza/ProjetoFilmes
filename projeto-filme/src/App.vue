@@ -21,7 +21,7 @@ export default {
 
 <style scooped>
 .link-home {
-  color: white !important;
+  color: orange !important;
   text-decoration: none;
 }
 </style>

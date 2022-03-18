@@ -56,7 +56,7 @@
           </v-list-item>
         </router-link>
 
-        <router-link to="/Documentarios">
+        <router-link to="/Documentario">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-svg</v-icon>

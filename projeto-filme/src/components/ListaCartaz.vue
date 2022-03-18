@@ -11,7 +11,7 @@
         <tr v-for="(filme, index) of ListaCartaz" :key="filme.id">
           <td>{{ index + 1 }}</td>
           <td>
-            <v-avatar size="24">
+            <v-avatar size="26">
               <img :src="filme.cartaz" :alt="filme.nome"/>
             </v-avatar>
             <span class="pl-2">{{ filme.nome }}</span>
