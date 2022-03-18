@@ -3,20 +3,20 @@
     <template v-slot:default>
       <thead>
         <tr>
-          <th colspan="2" class="text-left">Filmes</th>
+          <th colspan="2" class="text-left">Séries</th>
           <th class="text-right">Duração</th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(filme, index) of ListaCartaz" :key="filme.id">
+        <tr v-for="(serie, index) of ListaSerieCartaz" :key="serie.id">
           <td>{{ index + 1 }}</td>
           <td>
             <v-avatar size="26">
-              <img :src="filme.cartaz" :alt="filme.nome"/>
+              <img :src="serie.cartaz" :alt="serie.nome"/>
             </v-avatar>
-            <span class="pl-2">{{ filme.nome }}</span>
+            <span class="pl-2">{{ serie.nome }}</span>
           </td>
-          <td class="text-right">{{ filme.duracao }}</td>
+          <td class="text-right">{{ serie.duracao }}</td>
         </tr>
       </tbody>
     </template>
@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'ListaCartaz',
+  name: 'ListaSerieCartaz',
   props: {
     filmes: {
       type: Array,

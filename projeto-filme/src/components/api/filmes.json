@@ -1,5 +1,6 @@
-[{"cartaz":"https://www.themoviedb.org/t/p/w533_and_h300_bestv2/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg", "id" :1, "nome":"Homem Aranha - Sem volta pra casa", "Duração" :"2h28m"},
-{"cartaz":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cKNxg77ll8caX3LulREep4C24Vx.jpg", "id" :2, "nome":"Batman", "Duração" :"3h05m"},
-{"cartaz":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg", "id" :3, "nome":"Encanto", "Duração" :"1h42m"},
-{"cartaz":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dvTTuRqwvM6wkDuA0JviE58NSRp.jpg", "id" :4, "nome":"Sem saída", "Duração" :"1h35m"},
-{"cartaz":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1iVjKCGHPVNj7IQVB1DdpL8U7Y8.jpg", "id" :5, "nome":"A Era do Gelo - As Aventuras de Buck", "Duração" :"1h21m"}]
+[{"cartaz":"https://cdn.icon-icons.com/icons2/1412/PNG/512/comics-spiderman-morales_97418.png","id":1,"nome":"Homem Aranha - Sem volta pra casa","Duração":"2h28m"},
+    {"cartaz":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cKNxg77ll8caX3LulREep4C24Vx.jpg","id":2,"nome":"Batman","Duração":"3h05m"},
+    {"cartaz":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg","id":3,"nome":"Encanto","Duração":"1h42m"},
+    {"cartaz":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dvTTuRqwvM6wkDuA0JviE58NSRp.jpg","id":4,"nome":"Sem saída","Duração":"1h35m"},
+    {"cartaz":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1iVjKCGHPVNj7IQVB1DdpL8U7Y8.jpg","id":5,"nome":"A Era do Gelo - As Aventuras de Buck","Duração":"1h21m"}]
+

@@ -56,13 +56,23 @@
           </v-list-item>
         </router-link>
 
-        <router-link to="/Documentario">
+        <router-link to="/Documentarios">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-svg</v-icon>
             </v-list-item-icon>
             <v-list-item-title>
               Documentários
+            </v-list-item-title>
+          </v-list-item>
+        </router-link>
+        <router-link to="/noticias">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-svg</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>
+              Noticias
             </v-list-item-title>
           </v-list-item>
         </router-link>
