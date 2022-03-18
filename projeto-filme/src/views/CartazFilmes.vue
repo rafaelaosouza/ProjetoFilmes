@@ -19,7 +19,7 @@ export default {
     }
   },
   created() {
-    fetch('projeto-filme/src/components/api/filmes.json')
+    fetch('https://sistweb.com.br')
       .then(response => response.json())
       .then(json => {
         this.listaCartaz = json;
