@@ -1,9 +1,23 @@
 <template>
-  <div>
-    <h2>Filmes</h2>
-    <router-view/>
-  </div>
+  <v-app>
+    <AppTopBar/>
+    <v-main>
+      <router-view/>
+    </v-main>
+  </v-app>
 </template>
+
+<script>
+import AppTopBar from './components/shared/AppTopBar.vue'
+
+export default {
+  name: 'App',
+  components: {
+    AppTopBar
+  }
+};
+
+</script>
 
 <style scoped>
 
