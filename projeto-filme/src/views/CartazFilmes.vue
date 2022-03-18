@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import ListaCartazVue from './ListaCartaz.vue';
+import ListaCartaz from '../components/ListaCartaz';
 
 export default {
   name: 'CartazFilmes',
@@ -19,7 +19,7 @@ export default {
     }
   },
   created() {
-    fetch('./components/api/filmes.json')
+    fetch('projeto-filme/src/components/api/filmes.json')
       .then(response => response.json())
       .then(json => {
         this.listaCartaz = json;

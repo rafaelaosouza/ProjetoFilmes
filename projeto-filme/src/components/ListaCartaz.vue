@@ -8,7 +8,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(filme, index) of clubes" :key="filme.id">
+        <tr v-for="(filme, index) of ListaCartaz" :key="filme.id">
           <td>{{ index + 1 }}</td>
           <td>
             <v-avatar size="24">
@@ -22,7 +22,7 @@
     </template>
   </v-simple-table>
 </template>
-​
+
 <script>
 export default {
   name: 'ListaCartaz',
