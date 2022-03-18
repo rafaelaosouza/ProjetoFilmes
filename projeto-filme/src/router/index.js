@@ -6,8 +6,6 @@ import EsqueceuSenha from '../views/EsqueceuSenha.vue'
 import Inicio from '../views/Inicio.vue'
 import CartazFilmes from '../views/CartazFilmes.vue'
 import Mensagem from '../views/Mensagem.vue'
-import CartazSeries from '../views/CartazSeries'
-import CartazDocumentarios from '../views/CartazDocumentarios'
 import NoticiasFilmes from '../views/NoticiasFilmes.vue'
 
 Vue.use(VueRouter)
@@ -42,16 +40,6 @@ const routes = [
     path: '/Filmes',
     name: 'Filmes',
     component: CartazFilmes
-  },
-  {
-    path: '/Series',
-    name: 'Series',
-    component: CartazSeries
-  },
-  {
-    path: '/Documentarios',
-    name: 'Documentários',
-    component: CartazDocumentarios
   },
   {
     path: '/noticias',
