@@ -16,6 +16,11 @@ const routes = [
     name: 'Filmes',
     component: CartazFilmes
   },
+  {
+    path: '/Series',
+    name: 'Series',
+    component: CartazSeries
+  },
 ]
 
 const router = new VueRouter({
