@@ -1,5 +1,6 @@
 <template>
-  <v-app>
+   <v-app>
+      <h2>Filmes</h2>
     <AppTopBar/>
     <v-main>
       <router-view/>
@@ -9,17 +10,16 @@
 
 <script>
 import AppTopBar from './components/shared/AppTopBar.vue'
-
 export default {
   name: 'App',
   components: {
     AppTopBar
   }
-};
-
+}
 </script>
 
-<style scooped>
+<style scoped>
+
 .link-home {
   color: orange !important;
   text-decoration: none;
