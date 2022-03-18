@@ -28,11 +28,7 @@
                 <v-icon>mdi-heart</v-icon>
               </v-btn>
 
-              <v-btn icon>
-                <v-icon>mdi-bookmark</v-icon>
-              </v-btn>
-
-              <v-btn icon>
+             <v-btn icon>
                 <v-icon>mdi-share-variant</v-icon>
               </v-btn>
             </v-card-actions>
