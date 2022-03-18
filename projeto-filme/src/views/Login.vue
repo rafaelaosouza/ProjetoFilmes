@@ -14,7 +14,9 @@
                                                     <v-text-field label="Email" name="Email" type="text" color="orange accent-3" :rules="emailRules" required/>
                                                     <v-text-field label="Password" name="Password" type="password" color="orange accent-3"/>
                                                 </v-form>
-                                               <a href="/esqueceusenha" > <h3 class="text-center mt-3"> Esqueceu a senha ?</h3> </a>
+                                                <div class="text-center">
+                                                    <v-btn class="mb-3" @click="esqueceusenha" rounded color="orange accent-3">Esqueceu a senha?</v-btn>
+                                                </div>
                                             </v-card-text>
                                             <div class="text-center mt-3">
                                                 <v-btn class="mb-3" @click="logar" rounded color="orange accent-3">Entrar</v-btn>
@@ -39,7 +41,8 @@
         }),
         methods:{
         logar() {this.$router.push({ name: "" });},
-        register(){this.$router.push({ name: "register" });}
+        register(){this.$router.push({ name: "register" });},
+        esqueceusenha(){this.$router.push({ name: "esqueceusenha" })}
         },
     }
 </script>

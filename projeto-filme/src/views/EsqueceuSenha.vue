@@ -10,9 +10,9 @@
                                         <v-col>
                                             <v-card-text class="mt-12">
                                                 <h1 class="text-center display-2 orange--text text--accent-3">Esqueci Minha Senha:</h1>
-                                                <h3 class="text-center display-2 orange--text text--accent-3">Digite um Email para que possamos refazer sua senha</h3>
+                                                <h3 class="text-center display-0 orange--text text--accent-3 mb-3 mt-3">Digite um Email para que possamos refazer sua senha</h3>
                                                 <v-form>
-                                                    <v-text-field label="Email" name="Email" type="text" color="orange accent-3" :rules="emailRules" required/>
+                                                    <v-text-field  v-model="email_id" label="Email" name="Email" type="text" color="orange accent-3" :rules="emailRules" required/>
                                                 </v-form>
                                             </v-card-text>
                                             <div class="text-center mt-3">
@@ -33,10 +33,12 @@
     export default{
         name:'MyPassword',
          data: () => ({
+            email_id:"",
             emailRules: [ v => !v || /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'E-mail deve ser válido']
         }),
         methods:{
-        enviar() {this.$router.push({ name: "" });},
+        enviar() {
+            this.$router.push({ name: "mensagem" });},
         },
     }
 </script>
